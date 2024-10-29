@@ -47,7 +47,8 @@ http://localhost:8501
     ```
     http://127.0.0.1:7860
     ```
-    - Import the JSON ```langflow_recipe_flow.json```
+    - Create a new project
+    - Import the flow from the JSON-file ```langflow_recipe_flow.json```
     - Store your OpenAI API as an global variable
         - Go to Settings
         - Click Add New
