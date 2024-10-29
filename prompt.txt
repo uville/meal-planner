@@ -1,0 +1,10 @@
+Based on the following preferences, and allergies, please create a meal recipe and a shopping list. Ensure that the response is in JSON format with no additional explanations or text. Use European unit of measures. 
+
+Preferences for the meal: {meal_preferences}
+Allergies (ingredients, which should not be included): {allergies}
+
+Output format:
+Return the result in JSON format only, with keys: "meal_name", "meal_recipe", "ingredients".
+
+Notes:
+Ensure you do not include "json" in the response. Return the "meal_recipe" steps as an array of strings. Simple give me a valid JSON string with no formatting or display options.

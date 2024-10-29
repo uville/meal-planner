@@ -1,0 +1,3 @@
+langflow
+python-dotenv
+streamlit
